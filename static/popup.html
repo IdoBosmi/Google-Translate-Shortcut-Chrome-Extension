@@ -57,9 +57,23 @@
 </head>
 <body>
   <label class="switch">
+    <h3>Google Translate Shortcut</h3>
     <input type="checkbox" id="toggleInput">
     <span class="slider"></span>
   </label>
+
+  <p>Pick 2 languages. When pressing ctr+Q the extension will detect in what language the selected text in an will translate to the other language.</p>
+  <div class="dropdown">
+    <label for="lang1">1st Language</label>
+    <select id="lang1"></select>
+  </div>
+
+  <div class="dropdown">
+    <label for="lang2">2nd Language:</label>
+    <select id="lang2"></select>
+  </div>
+
   <script src="popup.js"></script>
+  
 </body>
 </html>
